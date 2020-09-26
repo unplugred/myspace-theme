@@ -216,6 +216,12 @@ filter:hue-rotate(240deg) saturate(2);
 .boxButton,#online{
 filter:hue-rotate(-70deg) grayscale(.5);
 }
+#name a{
+opacity:.5;
+display:block;
+width:100%;
+height:100%;
+}
 #name{
 color:transparent;
 background-image:url("./titles.png");
@@ -228,6 +234,9 @@ background-position-y:-288px;
 }
 .blogTitle #name{
 margin:10px auto -50px auto;
+}
+.blogTitle div{
+margin-top:17px!important;
 }
 .topRight .box{
 margin-left:30px;
