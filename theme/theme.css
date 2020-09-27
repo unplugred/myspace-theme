@@ -74,7 +74,7 @@ background: url("./cube.gif");
 display:block;
 margin-bottom:-108px;
 }
-.blogCard .avatar, .blogCard::before{
+.blogCard .avatar,.blogCard::before{
 margin-left:calc(50% - 56px);
 }
 .blogCard .avatar{
@@ -169,6 +169,10 @@ margin:auto;
 }
 .blogCard{
 padding-top:42px;
+text-align:center;
+}
+.boxInfo,.blogCard>div:last-child{
+text-align:left;
 }
 .blogPost{
 padding-top:30px!important;
