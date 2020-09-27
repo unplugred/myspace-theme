@@ -63,26 +63,20 @@ font-weight:normal;
 color:#999;
 background-attachment:fixed;
 }
-.short td:first-child::after{
+.short td:first-child::before,.blogCard::before{
 content:"";
 width:200px;
 height:200px;
 background: url("./cube.gif");
 display:block;
-margin-top: -203px;
+margin-bottom: -200px;
 image-rendering: initial;
 }
 .blogCard::before{
-content:"";
 width:100%;
-height:200px;
-background:url("./cube.gif");
-display:block;
-margin-bottom:-200px;
 background-size:contain;
 background-position:top center;
 background-repeat:no-repeat;
-image-rendering:initial;
 }
 .avatar{
 opacity:0;
