@@ -208,7 +208,7 @@ padding:0;
 text-align:center;
 }
 .fwiendFace{
-width:calc(25%-6px);
+width:calc(25% - 6px);
 }
 #userWall{
 margin-top:8px;
@@ -232,6 +232,26 @@ border:none;
 }
 .blogs div,.blog div{
 margin-bottom:initial;
+}
+.blurbs .blogs div,.blogCard li{
+background-image:url("./txt.png");
+background-repeat:no-repeat;
+padding-left:23px;
+margin-bottom:4px;
+min-height:16px;
+padding-top:2px;
+display: block;
+}
+.blogCard ul{
+padding-inline-start:10px;
+}
+.blogCard ul a{
+font-weight:normal;
+}
+.blogCard>div:last-child>b{
+margin-left:10px;
+margin-bottom:-9px;
+display:block;
 }
 .box.blog{
 margin-bottom:10px;
