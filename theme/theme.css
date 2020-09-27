@@ -75,7 +75,10 @@ display:block;
 margin-bottom:-108px;
 }
 .blogCard .avatar, .blogCard::before{
-margin-left: calc(50% - 56px);
+margin-left:calc(50% - 56px);
+}
+.blogCard .avatar{
+margin-bottom:16px;
 }
 .avatar{
 opacity:0;
@@ -159,7 +162,7 @@ max-width:150px;
 margin:auto;
 }
 .blogCard{
-padding-top:39px;
+padding-top:42px;
 }
 .blogPost{
 padding-top:30px!important;
