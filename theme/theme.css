@@ -205,6 +205,10 @@ margin-bottom:-27px!important;
 margin-top:-15px;
 margin-bottom:-20px;
 padding:0;
+text-align:center;
+}
+.fwiendFace{
+width:calc(25px-6px);
 }
 #userWall{
 margin-top:8px;
