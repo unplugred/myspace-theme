@@ -90,10 +90,10 @@ margin:0;
 max-height:calc(100vh - 50px);
 max-width:calc(100vw - 50px);
 background:transparent;
-border:6px double #292929;
+border:4px double #496f71;
 }
 #imgPreview{
-background:url("./bgfade.png");
+background:url("./fadebg.png");
 }
 a,.boxButton,h4{
 color:#aaa;
