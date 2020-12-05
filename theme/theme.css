@@ -125,7 +125,7 @@ font-family:"FreeMono","Courier New",monospace!important;
 color:#999;
 font-weight:normal;
 }
-#hSub a,#header a{
+#hSub a,#header a:first-child,#header a:last-child, #header a:nth-last-child(2){
 color:#aaa!important;
 }
 #viewFriends{
