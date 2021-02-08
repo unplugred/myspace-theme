@@ -347,11 +347,11 @@ min-width:70px;
 .topLeft{
 margin-right:10px;
 width:calc(40% - 30px);
-animation:20s -2.5s infinite floating;
+animation:20s -2.5s infinite floating !important;
 animation-timing-function:cubic-bezier(0.45,0.05,0.55,0.95);
 }
 .topRight{
-animation:20s infinite floating;
+animation:20s infinite floating !important;
 animation-timing-function:cubic-bezier(0.45,0.05,0.55,0.95);
 padding-top:15px;
 }
