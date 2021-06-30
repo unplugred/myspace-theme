@@ -160,7 +160,7 @@ td {
 p, ol li, ul:not(nav .links) li {
 	font-size: 1em;
 }
-.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon), .profile .friends .person img:not(.icon) {
+.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon), .profile .friends .person img:not(.icon). .icon {
 	filter: hue-rotate(240deg) saturate(2);
 }
 .blurbs, .friends, .blog-preview {
