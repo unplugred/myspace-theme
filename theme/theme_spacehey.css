@@ -43,6 +43,7 @@ a, h4, .profile .blurbs .section h4, nav .links a, nav .top, .logout-btn, a:hove
 nav .top .right {
 	color: black;
 	font-weight: normal;
+	margin-top: -4px;
 }
 nav .top .center form {
 	margin-top: -2px;
@@ -80,6 +81,8 @@ main .left, main .right {
 	padding-top: 30px;
 	color: #999;
 	animation-timing-function:cubic-bezier(0.45,0.05,0.55,0.95);
+	position: relative;
+	margin-bottom: 65px;
 }
 .profile h1 {
 	color: transparent;
@@ -153,14 +156,14 @@ td {
 	100%{color:#FF0000;}
 }
 @keyframes floating{
-	0%{margin-top:30px;}
-	50%{margin-top:100px;}
-	100%{margin-top:30px;}
+	0%{top:30px;}
+	50%{top:100px;}
+	100%{top:30px;}
 }
 p, ol li, ul:not(nav .links) li {
 	font-size: 1em;
 }
-.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon), .profile .friends .person img:not(.icon). .icon {
+.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon), .profile .friends .person img:not(.icon), .icon {
 	filter: hue-rotate(240deg) saturate(2);
 }
 .blurbs, .friends, .blog-preview {
@@ -173,6 +176,7 @@ p, ol li, ul:not(nav .links) li {
 	margin-left: -30px;
 	background: url("./titles_spacehey.png") no-repeat !important;
 	margin-bottom: -35px;
+	font-size: 0;
 }
 .blurbs .heading h4, .friends .heading h4 {
 	color: transparent!important;
@@ -182,6 +186,7 @@ p, ol li, ul:not(nav .links) li {
 }
 .friends .heading {
 	background-position-y: -96px!important;
+	margin-bottom: -25px;
 }
 #comments .heading {
 	background-position-y: -192px!important;
@@ -203,4 +208,54 @@ button, input {
 .comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon) {
 	width: inherit;
 	max-width: 90%;
+}
+.blog-preview p {
+	background-image: url("./txt.png");
+	background-repeat: no-repeat;
+	padding-left: 23px;
+	margin-bottom: 4px;
+	line-height: 16px;
+	min-height: 16px;
+}
+.blog-preview h4 a {
+	font-size: 12px;
+	position: relative;
+	top: 22px;
+	left: 30px;
+	color: #808080;
+}
+.more, .more:hover {
+	font-size:	12px !important;
+	float: left !important;
+	position: relative;
+	left: 28px;
+	top: 18px;
+	color: #808080;
+}
+#comments .inner>p {
+	background-color: #353535;
+	display: block;
+	margin: 1px 3px 1px 3px;
+	height: 20px;
+	padding: 0 2px;
+}
+.blog-preview h4 {
+	margin-bottom: -26px;
+}
+.comment-replies {
+	border: 2px solid #aaa;
+	margin-bottom: 2px;
+}
+.comment-reply {
+	padding: 8px 5px 0px 5px;
+}
+.comment-reply p:last-child {
+	line-height: .8;
+}
+.profile .left .table-section:nth-last-child(2) td:first-child {
+	text-align: right;
+}
+.details-table .icon {
+	margin-left: -3px;
+	margin-right: -8px;
 }
