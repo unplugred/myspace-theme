@@ -143,7 +143,7 @@ table.comments-table, table.music-table, table.bulletin-table, table.forum-table
 td {
 	border: none;
 }
-.blurbs a:nth-child(2) {
+.blurbs #crazylink {
 	animation: rainbow 2s linear infinite;
 }
 @keyframes rainbow{
@@ -258,4 +258,34 @@ button, input {
 .details-table .icon {
 	margin-left: -3px;
 	margin-right: -8px;
+}
+.online {
+	filter: saturate(0) brightness(2);
+	display: flex;
+	align-items: center;
+}
+.online img {
+	margin-right: 7px;
+	margin-top: -3px;
+}
+.unofficial-blogroll-border {
+	margin: 0;
+	float: right;
+	padding: 8px 8px 3px 8px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.unofficial-blogroll-border>*:last-child {
+	margin-top: 2px;
+	margin-left: 0;
+}
+.unofficial-blogroll-border a:hover {
+	color: black !important;
+}
+.profile .left .table-section:nth-last-child(2) tr:nth-last-child(3) td:first-child::before {
+  content: 'Games';
+}
+.profile .left .table-section:nth-last-child(2) tr:nth-last-child(3) td:first-child p {
+  display: none;
 }
