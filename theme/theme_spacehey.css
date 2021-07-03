@@ -62,6 +62,7 @@ main {
 	width: 1024px;
 	margin: auto;
 	background: none;
+	max-width: calc(100% - 10px);
 }
 main .left {
 	width: calc(40% - 30px);
@@ -288,4 +289,19 @@ button, input {
 }
 .profile .left .table-section:nth-last-child(2) tr:nth-last-child(3) td:first-child p {
   display: none;
+}
+@media screen and (max-width: 820px) {
+	main .left, main .right {
+		animation: none;
+		width: 100% !important;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.profile {
+		display: flex;
+		flex-direction: column;
+	}
+	nav .top .center {
+		visibility: hidden;
+	}
 }
