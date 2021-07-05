@@ -214,7 +214,8 @@ button, input {
 	background-image: url("./txt.png");
 	background-repeat: no-repeat;
 	padding-left: 23px;
-	margin-bottom: 4px;
+	margin-bottom: -6px;
+	margin-top: 13px;
 	line-height: 16px;
 	min-height: 16px;
 }
@@ -270,10 +271,10 @@ button, input {
 	margin-top: -3px;
 }
 .unofficial-blogroll-border {
-	margin: 0;
+	margin: 0 !important;
 	float: right;
-	padding: 8px 8px 3px 8px;
-	display: flex;
+	padding: 8px 8px 3px 8px !important;
+	display: flex !important;
 	flex-direction: column;
 	text-align: center;
 }
@@ -285,10 +286,13 @@ button, input {
 	color: black !important;
 }
 .profile .left .table-section:nth-last-child(2) tr:nth-last-child(3) td:first-child::before {
-  content: 'Games';
+	content: 'Games';
 }
 .profile .left .table-section:nth-last-child(2) tr:nth-last-child(3) td:first-child p {
-  display: none;
+	display: none;
+}
+.section p {
+	margin: 0 !important;
 }
 @media screen and (max-width: 820px) {
 	main .left, main .right {
