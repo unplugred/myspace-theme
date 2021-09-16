@@ -68,12 +68,14 @@ main .left {
 	width: calc(40% - 30px);
 	margin-right: 10px;
 	animation:20s -2.5s infinite floating;
+	will-change: auto;
 }
 main .right {
 	width: calc(60% - 20px);
 	padding: 10px;
 	float: right;
 	animation:20s infinite floating;
+	will-change: auto;
 }
 main .left, main .right {
 	display: inline-block;
@@ -164,7 +166,7 @@ td {
 p, ol li, ul:not(nav .links) li {
 	font-size: 1em;
 }
-.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon), .profile .friends .person img:not(.icon), .icon {
+.comments-table td:first-child img:not(.icon), .bulletin-table td:first-child img:not(.icon), .friends .person img:not(.icon), .icon {
 	filter: hue-rotate(240deg) saturate(2);
 }
 .blurbs, .friends, .blog-preview {
@@ -300,6 +302,7 @@ button, input {
 		width: 100% !important;
 		margin-bottom: 0;
 		margin-top: 20px;
+		will-change: initial;
 	}
 	.profile {
 		display: flex;
