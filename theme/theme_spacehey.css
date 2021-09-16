@@ -85,7 +85,7 @@ main .left, main .right {
 	position: relative;
 	margin-bottom: 65px;
 }
-.profile h1 {
+.left h1 {
 	color: transparent;
 	width: 158px;
 	height: 30px;
@@ -107,8 +107,8 @@ td:first-child {
 .details-table td:first-child {
 	color: inherit;
 }
-.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
-	border: 1px solid black;
+.contact, .url-info, .table-section, .home-actions {
+	border: 1px solid black !important;
 }
 .general-about .profile-pic img {
 	opacity: 0;
