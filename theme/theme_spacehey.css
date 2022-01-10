@@ -1,8 +1,8 @@
 *{
-	cursor:url("./default.png") 0 0,default;
+	cursor:url("https://unplugred.github.io/myspace-theme/theme/default.png") 0 0,default;
 }
 a,a *{
-	cursor:url("./pointer.png") 0 0,default!important;
+	cursor:url("https://unplugred.github.io/myspace-theme/theme/pointer.png") 0 0,default!important;
 }
 ::selection,::-moz-selection{
 	color:#333;
@@ -25,7 +25,7 @@ a,a *{
 	background-color:transparent;
 }
 body{
-	background:url("./heavy-stars.png") black;
+	background:url("https://unplugred.github.io/myspace-theme/theme/heavy-stars.png") black;
 	font-family:"FreeMono","Courier New",monospace;
 	font-weight:normal;
 	color:#999;
@@ -79,7 +79,7 @@ main .right {
 }
 main .left, main .right {
 	display: inline-block;
-	background: url("./closing.gif") calc(100% - 5px) 5px no-repeat, url("./wintitle.png") 3px 3px no-repeat, linear-gradient(to bottom,#ADC6F7 21px,#D6D6CE 21px,#D6D6CE 22px,transparent 22px), url("./winbg.png") top right repeat fixed,#191919;
+	background: url("chttps://unplugred.github.io/myspace-theme/theme/losing.gif") calc(100% - 5px) 5px no-repeat, url("https://unplugred.github.io/myspace-theme/theme/wintitle.png") 3px 3px no-repeat, linear-gradient(to bottom,#ADC6F7 21px,#D6D6CE 21px,#D6D6CE 22px,transparent 22px), url("https://unplugred.github.io/myspace-theme/theme/winbg.png") top right repeat fixed,#191919;
 	box-shadow: inset -1px -1px #424242,inset 1px 1px #D6D6CE,inset -2px -2px #848484,inset 2px 2px #FFF,inset -3px -3px #D6D6CE,inset 3px 3px #D6D6CE;
 	padding-top: 30px;
 	color: #999;
@@ -95,10 +95,10 @@ main .left, main .right {
 	user-select: none;
 	margin: 0 auto -5px auto;
 	background-position-y: -288px;
-	background-image: url("./titles.png");
+	background-image: url("https://unplugred.github.io/myspace-theme/theme/titles.png");
 }
 nav .top, td:last-child {
-	background: url("./highlight.png") fixed, #353535;
+	background: url("https://unplugred.github.io/myspace-theme/theme/highlight.png") fixed, #353535;
 }
 nav .links, .heading, .comments-table td:first-child, .music-table td:first-child {
 	background: #353535!important;
@@ -122,7 +122,7 @@ td:first-child {
 	content: "";
 	width: 113px;
 	height: 108px;
-	background: url("./cube.gif");
+	background: url("https://unplugred.github.io/myspace-theme/theme/cube.gif");
 	display: block;
 	margin-bottom: -108px;
 }
@@ -177,7 +177,7 @@ p, ol li, ul:not(nav .links) li {
 	height: 48px;
 	padding: 0;
 	margin-left: -30px;
-	background: url("./titles_spacehey.png") no-repeat !important;
+	background: url("https://unplugred.github.io/myspace-theme/theme/titles_spacehey.png") no-repeat !important;
 	margin-bottom: -35px;
 	font-size: 0;
 }
@@ -213,7 +213,7 @@ button, input {
 	max-width: 90%;
 }
 .blog-preview p {
-	background-image: url("./txt.png");
+	background-image: url("https://unplugred.github.io/myspace-theme/theme/txt.png");
 	background-repeat: no-repeat;
 	padding-left: 23px;
 	margin-bottom: -6px;
