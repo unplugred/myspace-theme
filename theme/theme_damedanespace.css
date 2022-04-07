@@ -1,0 +1,310 @@
+* {
+	cursor: url("https://unplugred.github.io/myspace-theme/theme/default.png") 0 0, default;
+}
+a, a * {
+	cursor: url("https://unplugred.github.io/myspace-theme/theme/pointer.png") 0 0, default!important;
+}
+::selection, ::-moz-selection {
+	color: #333;
+	background: #999999fe;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #999;
+	border: 3px black solid;
+	border-radius: 6px;
+	outline: none;
+}
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+a, h4, .userBtn {
+	color: #aaa;
+	font-weight: bold;
+}
+button, input[type="submit"] {
+	border: 0;
+	color: #353535;
+	background: #aaaaaa;
+	font-family: "FreeMono", "Courier New", monospace;
+	font-weight: bold;
+	padding: 4px 7px;
+	margin: 4px 0;
+	border-radius: 4px;
+	min-width: 70px;
+}
+.commentAuthor a, #topFriends a {
+	text-decoration: none;
+}
+body {
+	background: url("https://unplugred.github.io/myspace-theme/theme/heavy-stars.png") black;
+	font-family: "FreeMono", "Courier New", monospace;
+	font-weight: normal;
+	color: #999;
+	background-attachment: fixed;
+}
+#weblink {
+	animation: rainbow 2s linear infinite;
+}
+@keyframes rainbow {
+	0% { color: #FF0000; }
+	17% { color: #FFFF00; }
+	33% { color: #00FF00; }
+	50% { color: #00FFFF; }
+	67% { color: #0000FF; }
+	83% { color: #FF00FF; }
+	100% { color: #FF0000; }
+}
+.short .avatar {
+	opacity: 0;
+	width: 113px!important;
+	height: 108px;
+	margin: 0;
+}
+.short td:first-child::before {
+	content: "";
+	width: 113px;
+	height: 108px;
+	background: url("https://unplugred.github.io/myspace-theme/theme/cube.gif");
+	display: block;
+	margin: 0 auto;
+	margin-bottom: -108px;
+}
+.avatar {
+	filter: hue-rotate(240deg) saturate(2);
+}
+.userBtn, .online {
+	filter: hue-rotate(-70deg) grayscale(.5);
+}
+.usermain {
+	width: calc(60% - 20px);
+}
+.userinfo, .usermain {
+	padding: 10px!important;
+	background: url("https://unplugred.github.io/myspace-theme/theme/closing.gif") calc(100% - 5px) 5px no-repeat,
+	url("https://unplugred.github.io/myspace-theme/theme/wintitle.png") 3px 3px no-repeat,
+	linear-gradient(to bottom, #ADC6F7 21px, #D6D6CE 21px, #D6D6CE 22px, transparent 22px),
+	url("https://unplugred.github.io/myspace-theme/theme/winbg.png") top right repeat fixed, #191919;
+	box-shadow: inset -1px -1px #424242, inset 1px 1px #D6D6CE, inset -2px -2px #848484, inset 2px 2px #FFF, inset -3px -3px #D6D6CE, inset 3px 3px #D6D6CE;
+	image-rendering: pixelated;
+}
+.userinfo h2.username {
+	color: transparent;
+	background-image: url("https://unplugred.github.io/myspace-theme/theme/titles_spacehey.png");
+	width: 158px;
+	height: 30px;
+	overflow: hidden;
+	user-select: none;
+	margin: 20px auto 0 auto;
+	background-position-y: -288px;
+}
+.short td:first-child {
+	padding: 0 25px;
+}
+.profile .short .shortRight {
+	width: initial;
+	padding-left: initial;
+}
+.motto {
+	margin-top: 8px;
+}
+.siteHead {
+	font-family: "FreeMono", "Courier New", monospace!important;
+	font-size: 13px;
+}
+.siteHead a {
+	color: #aaa;
+}
+#siteName {
+	font-size: 15px;
+}
+textarea, .commentContent, .headTop, .infotable td, .blog.profile article, .userlist .userlistitem, .pms ul#privmsgs, .pms ul#mboxes li, .pms .nomsgs {
+	background: url("https://unplugred.github.io/myspace-theme/theme/highlight.png") #353535!important;
+	background-attachment: fixed!important;
+}
+.commentAuthor, .links, input, select {
+	background: #353535!important;
+}
+.username {
+	text-decoration: none!important;
+}
+.links {
+	color: black;
+}
+.extended {
+	margin-left: 0!important;
+	background: none;
+}
+.rightBox, #commentBox, .comments {
+	margin-left: 30px;
+	overflow: visible;
+}
+.rightHead, .usermain .boxHead {
+	margin-left: -30px;
+	margin-bottom: -28px;
+	background-repeat: no-repeat;
+	color: transparent;
+	background-color: transparent;
+	height: 48px;
+	background-image: url("https://unplugred.github.io/myspace-theme/theme/titles_spacehey.png");
+	padding: 0;
+}
+.friends .rightHead {
+	margin-top: 35px;
+	margin-bottom: -36px!important;
+	background-position-y: -96px;
+}
+.blurbs .rightHead {
+	margin-top: 40px;
+	margin-bottom: -46px!important;
+	background-position-y: -48px;
+}
+.commentHead {
+	background-position-y: -192px;
+	margin-left: 0!important;
+	margin-bottom: -21px!important;
+}
+.comments > div:nth-child(5) {
+	background-position-y: -240px;
+}
+#commentBox .boxHead {
+	background-position-y: -144px;
+	margin-bottom: -21px!important;
+}
+.comments {
+	width: calc(100% - 30px);
+	min-height: 10px;
+}
+.comments:blank {
+	margin-top: -65px!important;
+	min-height: 0px!important;
+}
+textarea::-webkit-scrollbar {
+	width: 18px;
+}
+textarea {
+	width: 100%!important;
+}
+textarea::-webkit-scrollbar-thumb {
+	border-color: #353535;
+	border-width: 6px;
+	border-radius: 9px;
+}
+input, textarea, select {
+	border: 0;
+	margin: 3px 0px 0px 0px;
+	font-family: "FreeMono", "Courier New", monospace;
+	font-size: 15px;
+	color: #999!important;
+}
+.friends p {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.friendCount {
+	font-weight: normal;
+}
+.friends, .commentAuthor {
+	line-height: .8;
+}
+.friends .avatar {
+	margin-top: -2px;
+}
+.userinfo .boxHead {
+	background: #353535 !important;
+	color: #aaa;
+}
+.infotable th {
+	background: none;
+	color: #999;
+	text-align: right;
+	vertical-align: top;
+}
+.music audio {
+	filter: invert(83%) grayscale(1) brightness(.96);
+	background-color: #f1f3f4;
+	border-radius: 5px;
+	height: 26px;
+	margin-top: 1px;
+}
+.music {
+	background: none;
+	border: none;
+}
+.songNameContainer {
+	font-size: 13px;
+	color: #999;
+	margin-top: -10px;
+	margin-bottom: 0px!important;
+}
+.songNameContainer a {
+	font-weight: normal;
+	text-decoration: none;
+}
+.box {
+	margin-bottom: 0;
+}
+.autoplaynotice {
+	border: none;
+	background: #bbbb75;
+	border-radius: 3px;
+}
+.autoplaynotice button {
+	background-color: #333;
+	color: #999;
+}
+.blogs ul {
+	list-style: url("https://unplugred.github.io/myspace-theme/theme/txt.png");
+	margin-top: 2px;
+}
+.blogs li a {
+	position: relative;
+	top: -4px;
+}
+.blog.profile article {
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+.blog.profile .usermain {
+	padding-top: 23px!important;
+	overflow: hidden;
+}
+.blog.usermain #commentBox {
+	margin-top: 20px;
+}
+@keyframes floating {
+	0% { margin-top: 30px; }
+	50% { margin-top: 100px; }
+	100% { margin-top: 30px; }
+}
+@media only screen and (min-width: 769px) {
+	.userinfo {
+		margin-right: 10px;
+		width: calc(40% - 30px)!important;
+		animation: 20s -2.5s infinite floating !important;
+		animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95) !important;
+	}
+	.usermain {
+		animation: 20s infinite floating !important;
+		animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95) !important;
+		padding-top: 15px;
+	}
+	.blog .userinfo {
+		width: calc(35% - 30px)!important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.userinfo, .usermain {
+		width: auto!important;
+	}
+	.usermain {
+		padding-top: 48px;
+		margin-top: 40px!important;
+	}
+}
