@@ -79,7 +79,7 @@ main .right {
 }
 main .left, main .right {
 	display: inline-block;
-	background: url("chttps://unplugred.github.io/myspace-theme/theme/losing.gif") calc(100% - 5px) 5px no-repeat, url("https://unplugred.github.io/myspace-theme/theme/wintitle.png") 3px 3px no-repeat, linear-gradient(to bottom,#ADC6F7 21px,#D6D6CE 21px,#D6D6CE 22px,transparent 22px), url("https://unplugred.github.io/myspace-theme/theme/winbg.png") top right repeat fixed,#191919;
+	background: url("https://unplugred.github.io/myspace-theme/theme/closing.gif") calc(100% - 5px) 5px no-repeat, url("https://unplugred.github.io/myspace-theme/theme/wintitle.png") 3px 3px no-repeat, linear-gradient(to bottom,#ADC6F7 21px,#D6D6CE 21px,#D6D6CE 22px,transparent 22px), url("https://unplugred.github.io/myspace-theme/theme/winbg.png") top right repeat fixed,#191919;
 	box-shadow: inset -1px -1px #424242,inset 1px 1px #D6D6CE,inset -2px -2px #848484,inset 2px 2px #FFF,inset -3px -3px #D6D6CE,inset 3px 3px #D6D6CE;
 	padding-top: 30px;
 	color: #999;
